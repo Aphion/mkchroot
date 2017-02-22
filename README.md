@@ -1,6 +1,5 @@
-This is a modified script to create a Debian Jessie i386 chroot forked & based on the original script released by socialdefect. 
+This is a modified script to create a Debian Jessie x86/i386 chroot environment forked & based on the original script released by socialdefect. 
 
-=======
 [Link]: https://github.com/socialdefect/mkraspbian-chroot. 
 =======
 
