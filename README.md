@@ -1,3 +1,7 @@
+This is a modified script to create a Debian Jessie i386 chroot forked & based on the original script released by socialdefect[url=https://github.com/socialdefect/mkraspbian-chroot][Here][/url]. All credit should go to him! Im still learning Linux and you should consider this still very much a WIP!
+
+Original Readme:
+
 mkraspbian-chroot
 =================
 
