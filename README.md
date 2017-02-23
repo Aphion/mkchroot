@@ -52,8 +52,8 @@ Examples:
 
     Create a
 
-
-#mkraspbian-chroot Original Readme:
+#
+mkraspbian-chroot Original Readme:
 ======
 
 Script for setting-up a Raspbian chroot directory for developing software for the Raspberry Pi 
