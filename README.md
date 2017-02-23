@@ -42,15 +42,16 @@ Usage:
 Examples:
     When you run mkchroot without any arguments a raspbian wheezy
     chroot will be created in your current directory ($PWD). The chroot
-    directory will be named 'chroot-raspbian-armhf'.
+    directory will be named 'chroot-debian-i386'.
     If this directory exists you can choose to overwrite or auto-rename it.
 
     Create a new raspbian wheezy chroot in directory: /home/username/raspi
-        named: wheezy-armhf
+        named: jessie-i386
 
-                mkchroot /home/username/raspi wheezy-armhf wheezy
+                mkchroot /home/username/raspi jessie-i386 jessie
 
     Create a
+
 
 #mkraspbian-chroot Original Readme:
 ==================================
@@ -83,3 +84,4 @@ Examples:
 		mkraspbian-chroot /home/username/raspi wheezy-armhf wheezy
 
     Create a
+===================================
