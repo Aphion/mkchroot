@@ -160,8 +160,8 @@ if [ ! -f `which debootstrap` ] ; then
 elif [ ! -f `which qemu-debootstrap` ] ; then
 	echo '(!!)  Missing dependency: qemu-debootstrap'
 	DEPS="${DEPS}1"
-elif [ ! -f `which qemu-debootstrap` ] ; then
-	echo '(!!)  Missing dependency: qemu-arm-static'
+elif [ ! -f `which qemu-user-static` ] ; then
+	echo '(!!)  Missing dependency: qemu-user-static'
 	DEPS="${DEPS}1"
 fi
 
