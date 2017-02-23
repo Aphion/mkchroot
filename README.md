@@ -41,10 +41,10 @@ execute a chrooted command.
 ######Usage:
        
 * mkchroot (with no arguments will create a chroot in the working directory)
-*       mkchroot [workdir] [chroot name] [distribution] [mirror] (name, distrib and mirror are not mandatory for they get default values)
+*       mkchroot [workdir] [chroot name] [distribution] [mirror] - (name, distrib and mirror are not mandatory for they get default values)
 *       mkchroot mount [/path/to/chroot/dir]
 *       mkchroot unmount [/path/to/chroot/dir]
-*       mkchroot chroot [/path/to/chroot/dir] [command] (if [command] is not passed it will default to a bash shell)
+*       mkchroot chroot [/path/to/chroot/dir] [command] - (if [command] is not passed it will default to a bash shell)
 
 ######Examples:
     
