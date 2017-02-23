@@ -6,7 +6,7 @@ This is a modified script to create a Debian Jessie x86/i386 chroot environment 
 
 All credit should go to socialdefect! Im still learning Linux and you should consider this still very much a WIP by a Linux newbie! 
 
->Still on the TO-DO list:
+#####Still on the TO-DO list:
 
 - [x] Rename mkraspbian-chroot to mkchroot to avoid conflicts
 - [x] Modify arch in mkchroot
@@ -19,7 +19,7 @@ All credit should go to socialdefect! Im still learning Linux and you should con
 ###Dependencies
 =================
 
->debootstrap <> qemu <> qemu-user-static <> qemu-debootstrap
+#####debootstrap <> qemu <> qemu-user-static <> qemu-debootstrap
 
 ###Installation:
 =================
@@ -40,11 +40,11 @@ execute a chrooted command.
 
 ####Usage:
        
->* mkchroot (with no arguments will create a chroot in the working directory)
->*       mkchroot [workdir] [chroot name] [distribution] [mirror] - (name, distrib and mirror are not mandatory for they get default values)
->*       mkchroot mount [/path/to/chroot/dir]
->*       mkchroot unmount [/path/to/chroot/dir]
->*       mkchroot chroot [/path/to/chroot/dir] [command] - (if [command] is not passed it will default to a bash shell)
+* mkchroot (with no arguments will create a chroot in the working directory)
+*       mkchroot [workdir] [chroot name] [distribution] [mirror] - (name, distrib and mirror are not mandatory for they get default values)
+*       mkchroot mount [/path/to/chroot/dir]
+*       mkchroot unmount [/path/to/chroot/dir]
+*       mkchroot chroot [/path/to/chroot/dir] [command] - (if [command] is not passed it will default to a bash shell)
 
 ####Examples:
     
