@@ -157,12 +157,15 @@ DEPS=0
 if [ ! -f `which debootstrap` ] ; then
 	echo '(!!)  Missing dependency: debootstrap'
 	DEPS="${DEPS}1"
-elif [ ! -f `which qemu-debootstrap` ] ; then
-	echo '(!!)  Missing dependency: qemu-debootstrap'
+elif [ ! -f `which qemu` ] ; then
+	echo '(!!)  Missing dependency: qemu'
 	DEPS="${DEPS}1"
 elif [ ! -f `which qemu-user-static` ] ; then
 	echo '(!!)  Missing dependency: qemu-user-static'
 	DEPS="${DEPS}1"
+elif [ ! -f `which qemu-debootstrap` ] ; then
+        echo '(!!)  Missing dependency: qemu-debootstrap'
+        DEPS="${DEPS}1"
 fi
 
 if [ "$DEPS" != 0 ] ; then
