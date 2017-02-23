@@ -23,14 +23,14 @@ Still a WIP!
 mkchroot Readme:
 ==================================
 
-Script for setting-up a Raspbian chroot directory for developing software for the Raspberry Pi
-(http://raspberrypi.org) on your Linux desktop computer.
+Script for setting-up a Debian chroot directory for developing software for the [Raspberry Pi](http://raspberrypi.org) on your Linux desktop computer.
 The script can also help you bind-mount /dev, /proc and /sys filesystems to enable device
 access and networking inside your chroot, unmount bind-mounts and start a chrooted shell or
 execute a chrooted command.
 
 Usage:
-       mkchroot
+       
+mkchroot
                 (with no arguments will create a chroot in the working directory)
        mkchroot [workdir] [chroot name] [distribution] [mirror]
                 (name, distrib and mirror are not mandatory for they get default values)
@@ -40,20 +40,20 @@ Usage:
                 (if [command] is not passed it will default to a bash shell)
 
 Examples:
-    When you run mkchroot without any arguments a raspbian wheezy
+    
+	When you run mkchroot without any arguments a Debian jessie
     chroot will be created in your current directory ($PWD). The chroot
     directory will be named 'chroot-debian-i386'.
     If this directory exists you can choose to overwrite or auto-rename it.
 
-    Create a new raspbian wheezy chroot in directory: /home/username/raspi
+    Create a new Debian jessie chroot in directory: /home/username/raspi
         named: jessie-i386
 
                 mkchroot /home/username/raspi jessie-i386 jessie
 
     Create a
 
-#
-mkraspbian-chroot Original Readme:
+~~#mkraspbian-chroot Original Readme:
 ======
 
 Script for setting-up a Raspbian chroot directory for developing software for the Raspberry Pi 
@@ -83,5 +83,4 @@ Examples:
 
 		mkraspbian-chroot /home/username/raspi wheezy-armhf wheezy
 
-    Create a
-======
+    Create a~~
