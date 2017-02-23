@@ -19,10 +19,10 @@ All credit should go to [socialdefect](https://github.com/socialdefect)! Im stil
 ###Dependencies
 =================
 
->####debootstrap <> qemu <> qemu-user-static <> qemu-debootstrap
+####debootstrap  qemu  qemu-user-static  qemu-debootstrap
 
 ###Installation:
-=================
+================
 
 >WIP!
 
@@ -31,7 +31,7 @@ All credit should go to [socialdefect](https://github.com/socialdefect)! Im stil
 
 
 ##mkchroot Readme:
-==================================
+==================
 
 Script for setting-up a Debian chroot directory for developing software for the [Raspberry Pi](http://raspberrypi.org) on your Linux desktop computer.
 The script can also help you bind-mount /dev, /proc and /sys filesystems to enable device
@@ -39,7 +39,7 @@ access and networking inside your chroot, unmount bind-mounts and start a chroot
 execute a chrooted command.
 
 ####Usage:
-       
+==========       
 * mkchroot (with no arguments will create a chroot in the working directory)
 *       mkchroot [workdir] [chroot name] [distribution] [mirror] - (name, distrib and mirror are not mandatory for they get default values)
 *       mkchroot mount [/path/to/chroot/dir]
@@ -47,7 +47,7 @@ execute a chrooted command.
 *       mkchroot chroot [/path/to/chroot/dir] [command] - (if [command] is not passed it will default to a bash shell)
 
 ####Examples:
-    
+=============    
 	When you run mkchroot without any arguments a Debian jessie
     chroot will be created in your current directory ($PWD). The chroot
     directory will be named 'chroot-debian-i386'.
