@@ -6,12 +6,12 @@ This is a modified script to create a Debian Jessie x86/i386 chroot environment 
 
 All credit should go to socialdefect! Im still learning Linux and you should consider this still very much a WIP by a Linux newbie! 
 
-#Dependencies
+Dependencies
 =================
 
 debootstrap <> qemu <> qemu-user-static <> qemu-debootstrap
 
-#Installation:
+Installation:
 =================
 
 Still a WIP!
@@ -52,9 +52,8 @@ Examples:
 
     Create a
 
-=================
-mkraspbian-chroot Original Readme:
-====================
+
+#mkraspbian-chroot Original Readme:
 
 Script for setting-up a Raspbian chroot directory for developing software for the Raspberry Pi 
 (http://raspberrypi.org) on your Linux desktop computer.  
@@ -84,3 +83,4 @@ Examples:
 		mkraspbian-chroot /home/username/raspi wheezy-armhf wheezy
 
     Create a
+======
