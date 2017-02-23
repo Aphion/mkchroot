@@ -58,7 +58,10 @@ execute a chrooted command.
 
                 mkchroot /home/username/raspi jessie-i386 jessie
 
-    Create a
+
+
+
+
 
 ######mkraspbian-chroot Original Readme:
 ======
