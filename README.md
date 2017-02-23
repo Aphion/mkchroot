@@ -12,9 +12,10 @@ All credit should go to [socialdefect](https://github.com/socialdefect)! Im stil
 - [x] Modify arch in mkchroot
 - [ ] Fix gpg jessie public key
 - [ ] Add script to install Dependencies
+- [ ] Add wine to the install script with correct memsplit & depends
 - [ ] Fix README.md
 - [ ] Script cleanup
-
+- [ ] Create Standard & Berryboot images for easy installation on sd card
 
 ###Dependencies
 =================
@@ -33,7 +34,7 @@ All credit should go to [socialdefect](https://github.com/socialdefect)! Im stil
 ##mkchroot Readme:
 ==================
 
-Script for setting-up a Debian chroot directory for developing software for the [Raspberry Pi](http://raspberrypi.org) on your Linux desktop computer.
+Script for setting-up a Debian x86/i386 chroot directory to developing software for Linux x86/i386 OSes and on your [Raspberry Pi](http://raspberrypi.org).
 The script can also help you bind-mount /dev, /proc and /sys filesystems to enable device
 access and networking inside your chroot, unmount bind-mounts and start a chrooted shell or
 execute a chrooted command.
