@@ -21,7 +21,7 @@ chroot(){
 
 MountIt(){
 	if [ -z $2 ] ; then
-		echo 'Usage: mkraspbian-chroot mount [/path/to/chroot/dir]'
+		echo 'Usage: mkchroot mount [/path/to/chroot/dir]'
 		exit 1
 	fi
 
@@ -40,7 +40,7 @@ MountIt(){
 
 unmount(){
 	if [ -z $2 ] ; then
-		echo 'Usage: mkraspbian-chroot unmount [/path/to/chroot/dir]'
+		echo 'Usage: mkchroot unmount [/path/to/chroot/dir]'
 		exit 1
 	fi
 
@@ -60,11 +60,11 @@ unmount(){
 Usage(){
 	echo
         echo 'Usage:'
-	echo '       mkraspbian-chroot  (with no arguments will create a chroot in the working directory)'
-        echo '       mkraspbian-chroot [workdir] [chroot name] [distribution] [mirror]'
-        echo '       mkraspbian-chroot mount [/path/to/chroot/dir]'
-        echo '       mkraspbian-chroot unmount [/path/to/chroot/dir]'
-        echo '       mkraspbian-chroot chroot [/path/to/chroot/dir] [command] (if [command] is not passed it will default to a bash shell)'
+	echo '       mkchroot  (with no arguments will create a chroot in the working directory)'
+        echo '       mkchroot [workdir] [chroot name] [distribution] [mirror]'
+        echo '       mkchroot mount [/path/to/chroot/dir]'
+        echo '       mkchroot unmount [/path/to/chroot/dir]'
+        echo '       mkchroot chroot [/path/to/chroot/dir] [command] (if [command] is not passed it will default to a bash shell)'
         echo
 }
 
@@ -217,7 +217,7 @@ else
 	sudo mount -t sysfs sysfs "$DIR/$CHROOT"/sys
 	sudo mount -o bind /dev "$DIR/$CHROOT"/dev
 
-	echo "To chroot run: mkraspbian-chroot chroot "$DIR/$CHROOT""
+	echo "To chroot run: mkchroot chroot "$DIR/$CHROOT""
 fi
 
 exit $?
