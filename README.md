@@ -1,4 +1,4 @@
-Readme.md
+Readme
 ================
 
 This is a modified script to create a Debian Jessie x86/i386 chroot environment on your raspberry pi forked & based on the original script released by socialdefect. https://github.com/socialdefect/mkraspbian-chroot 
