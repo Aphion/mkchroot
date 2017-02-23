@@ -38,15 +38,15 @@ The script can also help you bind-mount /dev, /proc and /sys filesystems to enab
 access and networking inside your chroot, unmount bind-mounts and start a chrooted shell or
 execute a chrooted command.
 
-######Usage:
+####Usage:
        
-* mkchroot (with no arguments will create a chroot in the working directory)
-*       mkchroot [workdir] [chroot name] [distribution] [mirror] - (name, distrib and mirror are not mandatory for they get default values)
-*       mkchroot mount [/path/to/chroot/dir]
-*       mkchroot unmount [/path/to/chroot/dir]
-*       mkchroot chroot [/path/to/chroot/dir] [command] - (if [command] is not passed it will default to a bash shell)
+>* mkchroot (with no arguments will create a chroot in the working directory)
+>*       mkchroot [workdir] [chroot name] [distribution] [mirror] - (name, distrib and mirror are not mandatory for they get default values)
+>*       mkchroot mount [/path/to/chroot/dir]
+>*       mkchroot unmount [/path/to/chroot/dir]
+>*       mkchroot chroot [/path/to/chroot/dir] [command] - (if [command] is not passed it will default to a bash shell)
 
-######Examples:
+####Examples:
     
 	When you run mkchroot without any arguments a Debian jessie
     chroot will be created in your current directory ($PWD). The chroot
