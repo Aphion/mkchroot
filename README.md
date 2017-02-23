@@ -1,4 +1,4 @@
-#Readme
+Readme
 ================
 
 This is a modified script to create a Debian Jessie x86/i386 chroot environment on your raspberry pi forked & based on the original script released by socialdefect. https://github.com/socialdefect/mkraspbian-chroot 
@@ -20,7 +20,7 @@ Still a WIP!
 
 
 
-#mkchroot Readme:
+mkchroot Readme:
 ==================================
 
 Script for setting-up a Raspbian chroot directory for developing software for the Raspberry Pi
@@ -52,9 +52,9 @@ Examples:
 
     Create a
 
-
+===================================
 #mkraspbian-chroot Original Readme:
-==================================
+===================================
 
 Script for setting-up a Raspbian chroot directory for developing software for the Raspberry Pi 
 (http://raspberrypi.org) on your Linux desktop computer.  
