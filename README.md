@@ -79,15 +79,15 @@ execute a chrooted command.
 >       mkraspbian-chroot chroot [/path/to/chroot/dir] [command] 
 >		(if [command] is not passed it will default to a bash shell)
 
-Examples:
-    When you run mkraspbian-chroot without any arguments a raspbian wheezy
-    chroot will be created in your current directory ($PWD). The chroot
-    directory will be named 'chroot-raspbian-armhf'.
-    If this directory exists you can choose to overwrite or auto-rename it.
-
-    Create a new raspbian wheezy chroot in directory: /home/username/raspi 
-	named: wheezy-armhf
-
-		mkraspbian-chroot /home/username/raspi wheezy-armhf wheezy
-
-    Create a
+######Examples:
+>    When you run mkraspbian-chroot without any arguments a raspbian wheezy
+>    chroot will be created in your current directory ($PWD). The chroot
+>    directory will be named 'chroot-raspbian-armhf'.
+>    If this directory exists you can choose to overwrite or auto-rename it.
+>
+>    Create a new raspbian wheezy chroot in directory: /home/username/raspi 
+>	named: wheezy-armhf
+>
+>		mkraspbian-chroot /home/username/raspi wheezy-armhf wheezy
+>
+>   Create a
