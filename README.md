@@ -9,7 +9,7 @@ All credit should go to socialdefect! Im still learning Linux and you should con
 Dependencies
 =================
 
-<addr>debootstrap <> qemu <> qemu-user-static <> qemu-debootstrap</addr>
+'<addr>debootstrap <> qemu <> qemu-user-static <> qemu-debootstrap</addr>'
 
 Installation:
 =================
